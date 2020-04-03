@@ -40,3 +40,26 @@ main {
     border-radius:  40% 24px 24px 40%/8px 8px 8px 8px;
     overflow: auto;
 }
+
+@media min-width:1200px
+                     {
+  .empty-wisky{
+      display:none;
+  }
+}
+
+@media min-width:1100px AND max-width:1200px
+                                          {
+    .wisky{
+        display:none;
+    }
+                                          }
+@media min-width:800px AND max-width:1000px
+                                          {
+    .wisky{
+        display:none;
+    }
+    empty.wisky{
+        display:none;
+    }
+}

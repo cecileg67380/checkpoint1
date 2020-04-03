@@ -1,3 +1,8 @@
+<?php
+require_once 'connect.php';
+$pdo=new \PDO(DSN, USER, PASS);
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
